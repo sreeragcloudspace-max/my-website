@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sreerag | Portfolio</title>
+<style>
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+font-family: "Poppins", sans-serif;
+background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+color: #fff;
+line-height: 1.6;
+overflow-x: hidden;
+}
+
+header {
+text-align: center;
+padding: 100px 20px;
+}
+header h1 {
+font-size: 3em;
+animation: fadeInDown 1.5s;
+}
+header p {
+margin-top: 10px;
+font-size: 1.3em;
+color: #ddd;
+animation: fadeInUp 2s;
+}
+
+nav {
+position: sticky;
+top: 0;
+background: rgba(0,0,0,0.8);
+padding: 15px;
+text-align: center;
+backdrop-filter: blur(8px);
+}
+nav a {
+color: #fff;
+margin: 0 15px;
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s;
+}
+nav a:hover {
+color: #00eaff;
+}
+
+section {
+padding: 80px 20px;
+max-width: 900px;
+margin: auto;
+text-align: center;
+}
+section h2 {
+font-size: 2em;
+margin-bottom: 20px;
+color: #00eaff;
+}
+.card {
+background: rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+padding: 30px;
+margin: 20px 0;
+box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+backdrop-filter: blur(5px);
+transition: transform 0.3s;
+}
+.card:hover {
+transform: translateY(-8px);
+}
+
+footer {
+text-align: center;
+padding: 30px;
+background: #000;
+color: #aaa;
+font-size: 0.9em;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+from { opacity: 0; transform: translateY(-50px); }
+to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInUp {
+from { opacity: 0; transform: translateY(50px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+a.btn {
+display: inline-block;
+margin-top: 15px;
+padding: 12px 25px;
+background: #00eaff;
+color: #000;
+border-radius: 6px;
+text-decoration: none;
+font-weight: bold;
+transition: background 0.3s;
+}
+a.btn:hover {
+background: #00b5c8;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>👋 Hi, I'm Sreerag</h1>
+<p>Service Technician | Tech Enthusiast | Explorer</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="card">
+<p>
+I'm Sreerag, passionate about technology, electronics, and troubleshooting.
+With 5+ years of experience as a copier service technician,
+I enjoy solving problems and learning new tools every day.
+</p>
+</div>
+</section>
+
+<section id="portfolio">
+<h2>Portfolio</h2>
+<div class="card">
+<p>📂 Project 1 – Printer/MFP Service Documentation</p>
+</div>
+<div class="card">
+<p>⚡ Project 2 – Personal Tech Experiments & IoT Work</p>
+</div>
+<div class="card">
+<p>🌐 Project 3 – This Website (GitHub Pages)</p>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+<p>📧 Email: yourmail@example.com</p>
+<p>🔗 GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+<a href="mailto:yourmail@example.com" class="btn">Say Hello</a>
+</div>
+</section>
+
+<footer>
+<p>© 2025 Sreerag. Built with ❤️ on GitHub Pages.</p>
+</footer>
+
+</body>
+</html>
